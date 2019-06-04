@@ -8,12 +8,12 @@ function reminder (user,date,postId,memo) {
 
 function sendReminder(message,replyTo) {
   //Set your typetalk bot URL
-  var url = "";
+  var url = "TYPETALK_URL_GOES_HERE";
   
   //set your typetalk token
   var options = {
     "method": "post",
-    "headers": {"X-Typetalk-Token": ""},
+    "headers": {"X-Typetalk-Token": "TOKEN_GOES_HERE"},
     "payload": {"message": message, "replyTo" : replyTo}
   };
   var response = UrlFetchApp.fetch(url, options);
@@ -21,12 +21,12 @@ function sendReminder(message,replyTo) {
 
 function postToTypetalk(message) {
   //Set your typetalk bot URL
-  var url = "";
+  var url = "TYPETALK_URL_GOES_HERE";
   
   //set your typetalk token
   var options = {
     "method": "post",
-    "headers": {"X-Typetalk-Token": ""},
+    "headers": {"X-Typetalk-Token": "TOKEN_GOES_HERE"},
     "payload": {"message": message}
   };
   var response = UrlFetchApp.fetch(url, options);

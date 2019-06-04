@@ -17,3 +17,7 @@ Congrats, you are done. You can now send reminders by using @remindme+ tomorrow 
 
 # Help
 If you need help, do @remindme+ help. 
+
+# Chrono
+
+Chrono, an awesome natural language to date parser, was found here https://github.com/wanasit/chrono and addored by me. 
